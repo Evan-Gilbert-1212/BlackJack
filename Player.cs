@@ -4,8 +4,6 @@ namespace BlackJack
 {
   public class Player
   {
-    public int playerID { get; set; }
-
     public List<Card> playerHand { get; set; } = new List<Card>();
 
     public List<Card> playerHandTwo { get; set; } = new List<Card>();
